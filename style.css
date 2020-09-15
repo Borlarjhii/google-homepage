@@ -1,20 +1,36 @@
 body{
     margin: 0;
     padding-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 #navbar{
     display: block;
-    padding: 20px;
+    padding: 10px;
     text-align: end;
+
+}
+
+#nav-div{
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 #navbar a{
     text-decoration: none;
     color: black;
+    padding: 0 10px;
 }
 
+#navbar #google-apps{
+    width: 28px;
+}
 
+#navbar #google-profile-photo{
+    width: 34px;
+}
 
 #main-item{
     display: flex;
@@ -78,20 +94,19 @@ footer{
     background-color: #e9f0ee;
     color: #5F6368;
     display: block;
-    margin-top: 52px;
+    margin-top: 20px;
 }
 
 footer p{
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 10px;
+    padding-left: 30px;
     margin: 0;
 }
 
 footer #options{
     border-top: 1px solid #cbd4d2;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 14px;
     display: flex;
 }
 
