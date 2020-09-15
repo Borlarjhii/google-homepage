@@ -1,14 +1,18 @@
 body{
     margin: 0;
+    padding-bottom: 0;
 }
 
 #navbar{
     display: block;
-    background-color: black;
     padding: 20px;
     text-align: end;
 }
 
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
 
 
 
@@ -18,22 +22,91 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 10em;
 }
 
 #googlelogo{
     width: 272px;
+    margin-bottom: 20px;
 }
 
 #search{
-    width: 55em;
+    width: 45em;
     height: 3em;
-    border-radius: 10px;
-    border: 1px solid rgb(114, 112, 112);
-    box-shadow: 5px 5px rgb(77, 77, 80);
+    border-radius: 20px;
+    border: 1px solid #f2f2f2;
     margin-bottom: 15px;
+    background-color: white;
+    padding: 5px 20px;
 }
 
+#search:hover{
+    box-shadow: 2px 2px 4px 4px #cbd4d2;
+}
 
-input{
-    text
+#submit{
+    background-color:  #f2f2f2;
+    height: 40px;
+    border: 1px solid  #f2f2f2;
+    border-radius: 5px;
+    width: 13em;
+    margin: 8px;
+    color: #5F6368;
+}
+
+#submit:hover{
+    border-color:#cbd4d2;
+    background-color: #e9f0ee;
+    color: black;
+}
+
+#submit:focus{
+    border-color: blue;
+}
+
+p a{
+    text-decoration: none;
+    color: blue;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    display: block;
+    background-color: #e9f0ee;
+    color: #5F6368;
+    display: block;
+    margin-top: 52px;
+}
+
+footer p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+footer #options{
+    border-top: 1px solid #cbd4d2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+#options-right{
+    width: 50%;
+    text-align: end;
+}
+#options-left{
+    width: 50%;
+}
+
+#options-right a, #options-left a{
+    padding: 0 10px;
+}
+
+#options-right a:hover, #options-left a:hover{
+    text-decoration: underline;
 }
