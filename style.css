@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+#navbar{
+    display: block;
+    background-color: black;
+    padding: 20px;
+    text-align: end;
+}
+
+
+
+
+#main-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#googlelogo{
+    width: 272px;
+}
+
+#search{
+    width: 55em;
+    height: 3em;
+    border-radius: 10px;
+    border: 1px solid rgb(114, 112, 112);
+    box-shadow: 5px 5px rgb(77, 77, 80);
+    margin-bottom: 15px;
+}
+
+
+input{
+    text
+}
