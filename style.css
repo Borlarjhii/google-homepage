@@ -50,6 +50,12 @@ body{
     margin-bottom: 20px;
 }
 
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
 #search{
     width: 45em;
     height: 3em;
